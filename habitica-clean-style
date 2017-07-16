@@ -1,0 +1,55 @@
+! Clean Habitica Style by Lorazcyk
+! Preview: 
+
+! Hide subscribe button and help button
+habitica.com##.toolbar-subscribe-button > .highlight
+habitica.com##.highlight.toolbar-button-dropdown
+
+! Hide bottom links
+habitica.com##.ng-scope.footer
+
+! Hide tags and search bar
+habitica.com##.ng-scope.filters
+
+! Hide column titles. They can be seen on the input box anyway.
+habitica.com##.task-column_title
+
+! Hide task button clutter
+habitica.com##.task-meta-controls
+
+! Hide info buttons on top of columns
+habitica.com##.habits.task-column > .ng-scope.pull-right.option-box > .option-action > .glyphicon-question-sign.glyphicon
+habitica.com##.dailys.task-column > .ng-scope.pull-right.option-box > .option-action > .glyphicon-question-sign.glyphicon
+habitica.com##.todos.task-column > .ng-scope.pull-right.option-box > .option-action > .glyphicon-question-sign.glyphicon
+habitica.com##.rewards.task-column > .ng-scope.pull-right.option-box > .option-action > .glyphicon-question-sign.glyphicon
+habitica.com##.ng-scope.option-action > .glyphicon-signal.glyphicon
+
+! Hide column top filter tabs (strong/weak, due/grey, etc ). You can still see them if you scroll down
+habitica.com##.habits.task-column > .ng-scope.tabs-below.tabbable:nth-of-type(1) > .task-filter
+habitica.com##.dailys.task-column > .ng-scope.tabs-below.tabbable:nth-of-type(1) > .task-filter
+habitica.com##.todos.task-column > .tabs-below.tabbable.ng-scope:nth-of-type(2) > .task-filter
+habitica.com##.rewards.task-column > .ng-scope.tabs-below.tabbable:nth-of-type(1) > .task-filter
+
+! Hide "Add multiple"
+habitica.com##.habits.task-column > .ng-invalid-required.ng-invalid.ng-pristine.task-add > .pull-right.btn-link.help-block > .ng-scope
+habitica.com##.dailys.task-column > .ng-invalid-required.ng-invalid.ng-pristine.task-add > .pull-right.btn-link.help-block > .ng-scope
+habitica.com##.todos.task-column > .ng-invalid-required.ng-invalid.ng-pristine.task-add > .pull-right.btn-link.help-block > .ng-scope
+habitica.com##.rewards.task-column > .ng-invalid-required.ng-invalid.ng-pristine.task-add > .pull-right.btn-link.help-block > .ng-scope
+habitica.com##.ng-invalid-required.ng-invalid.ng-submitted.ng-dirty.task-add > .pull-right.btn-link.help-block > .ng-scope
+
+! Hide all rewards except the enchanted armoire
+habitica.com##.ng-scope.reward-item.task:nth-of-type(1)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(2)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(3)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(4)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(5)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(6)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(7)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(8)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(9)
+habitica.com##.ng-scope.reward-item.task:nth-of-type(10)
+! Hide health potion text
+##.reward-item.task:nth-of-type(10) > .ng-binding.task-text
+habitica.com##.reward-item.task:nth-of-type(10)
+
+! --- end of Clean Habitica Style by Lorazcyk ---
