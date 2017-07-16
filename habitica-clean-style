@@ -1,5 +1,5 @@
 ! Clean Habitica Style by Lorazcyk
-! Preview: 
+! Preview: https://image.prntscr.com/image/6yrYb-9ARQ2z5WppReh0yw.png
 
 ! Hide subscribe button and help button
 habitica.com##.toolbar-subscribe-button > .highlight
